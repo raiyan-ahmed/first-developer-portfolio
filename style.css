@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .width{
     width: 50%;
@@ -29,4 +30,17 @@ section{
 #background-image{
     background-image:url(Images/top-banner.png);
     background-repeat: no-repeat;
+}
+.Resume-link{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image:linear-gradient(orange,yellow);
+    color: black;
+    font-weight: 700;
+}
+#dream-big{
+    background-image:url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
